@@ -31,13 +31,13 @@ const Index = () => {
     <>
       <header>
         <h1>Playlist Creator</h1>
-        <button onClick={() => setPlaylistName(prompt("Enter playlist name"))}>
-          Create Playlist
-        </button>
       </header>
       <main>
         <div className="result-div">
           <h2>Your Playlist</h2>
+          <button onClick={() => setPlaylistName(prompt("Enter playlist name"))}>
+          Create Playlist
+        </button>
           <h3>{playlistName}</h3>
           <form onSubmit={handleAddSong}>
             <input type="text" name="songName" placeholder="Enter song name" />
