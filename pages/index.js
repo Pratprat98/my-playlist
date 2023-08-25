@@ -49,6 +49,10 @@ const Index = () => {
     try {
       const response = await fetch(url, options);
       const result = await response.json();
+      if (result.data.length === 0) {
+        alert("No songs found");
+        return;
+      }
       setSongInfo(result.data);
     } catch (error) {
       console.error(error);
