@@ -21,12 +21,12 @@ h1 {
 }
 
 main {
-  display: flex;
   justify-content: space-between;
   padding: 2rem;
 }
 
 .result-div {
+  margin-top: 2rem;
   background-color: #282828;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
