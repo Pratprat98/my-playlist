@@ -147,7 +147,8 @@ const Index = () => {
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
               />
-              
+               <div className="gap">
+        </div>
               <button type="submit">Search</button>
             </form>
           </div>
