@@ -26,6 +26,7 @@ main {
 }
 
 .result-div {
+  margin: auto;
   margin-top: 2rem;
   background-color: #282828;
   border-radius: 8px;
